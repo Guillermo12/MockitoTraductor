@@ -21,7 +21,7 @@ public class GreetingTest {
 	
 	@Test
 	public void testeo(){
-		assertEquals("Ciau Paulo", greeting.sayHello("Italian", "Paulo"));
+		assertEquals("Ciau Paul", greeting.sayHello("Italian", "Paul"));
         //verify
         verify(mockTranslator).translate("English", "Italian", "Hello");
 	}
